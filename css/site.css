@@ -1,0 +1,20 @@
+body {
+  background-color: #e6e6fa;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 90%;
+}
+
+h2 {
+  color: gold;
+  font-style: oblique;
+}
+
+ul {
+  background-color: cyan;
+  color: black;
+}
+
+p {
+  color: hsl(0, 100%, 50%);
+}

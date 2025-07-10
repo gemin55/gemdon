@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donald Trump ...</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Tangerine|Open+Sans:400,700&effect=fire-animation" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/formstyle.css">
+
+<link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../icons/favicon.ico" type="image/x-icon">
+
+<script src="https://kit.fontawesome.com/0c54b7787d.js"></script>
+
+</head>
+<body>
+    
+  <!-- // start of Header content -->
+    <header id="about">
+        <a href="../docs/resume.pdf" 
+        class="btn font-effect-fire-animation" download>Download PDF</a>
+  
+       <!-- // start of Nav content -->
+    
+        <nav>
+            <ul>
+                <li class="dropdown"><a href="">About</a>
+                 <ul class="dropdown-content">
+                  	<li><a href="#">Vision</a></li>
+	                  <li><a href="#">Mission</a></li>
+                  </ul>
+                </li>
+                <li><a href="">Work Experience</a></li>
+                <li><a href=""><i class="fas fa-university"></i>Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="photogallery.html">Gallery</a></li>
+
+                <a href="javascript:void(0);" class="icon">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </ul>
+        </nav>
+       <!-- // end of Nav -->
+    <div class="content-wrap">
+       <div>
+        <div class="col-narrow">
+        <a href="index.html">
+            <img src="../images/ava.jpg" class="profile-img" alt="Donald Trump">
+        </a>
+        	</div>
+
+        <div class="col-wide">
+        <h1>Donald Trump</h1>
+        <h2>USA President</h2>
+        <p>I own buildings. I'm a builder; i know how to build. NOB
+        ODY CAN BUILD LIKE I CAN BUILD. NOBODY. And the builders in New Yor
+        k will tell you that. I build the best product. And my name helps
+        a lot. Check my records at:
+        <a href="https://www.trump.com/">Trump</a>
+        This is my Business Records!
+        </p>
+        </div>
+        </div>
+      </div>
+    </header>
+  <!-- // end of Header -->
+
+  <!-- // start of Main content with two sections -->
+<main>
+
+  <form id="frmcontact" name="contact" action="processform.php" method="post">
+  	 <div id="wrapper">
+    <h1>Form Elements Demo</h1>
+<fieldset>
+  <legend>Personal Profile</legend>
+    <div class="input-container">
+      <label for="txtfname">First Name</label>
+      <input type="text" name="fname" accesskey="f" autofocus="true" tabindex="1" id="txtfname" size="30" placeholder="Enter first name" required class="input-field">
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input type="text" name="lname" tabindex="2" accesskey="l" id="txtlname" size="30" placeholder="Enter last name" required class="input-field">
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input type="email" name="email" readonly="true" id="txtemail" size="30" placeholder="Enter email using right format" required class="input-field">
+    </div>
+
+        <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input type="date" name="dob" id="txtdob" size="30" placeholder="Enter dob" required class="input-field">
+    </div>
+
+            <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input type="color" name="col" id="txtcol" size="30" placeholder="Choose fav color" required class="input-field">
+    </div>
+
+    </fieldset>
+    
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+    <textarea name="comments" id="txtacomments" placeholder="Enter no more than 25 characters" class="input-field" disabled></textarea>
+    </div>
+
+     <div class="input-container">
+      <i class="fa fa-user icon"></i>
+    <input type="checkbox" name="chkbrowsers" id="chkIE">Internet Explorer
+    <input type="checkbox" name="chkbrowsers" id="chkff" checked>Firefox
+    <input type="checkbox" name="chkbrowsers" id="chkop">Opera
+    </div>
+
+    <div class="input-container">
+      Choose your favorite fruit:
+   <input type="radio" name="radfruits" id="Orange" checked>Orange
+   <input type="radio" name="radfruits" id="Apple">Apple
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+    <select name="club" id="ddlclub" class="input-field">
+      <option value="-1" selected>Choose favorite club</option>
+      <option value="">Liverpool</option>
+      <option value="">Barcelona</option>
+    </select>
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+    <select name="clubs" id="lstclub" class="input-field" size="3" multiple> 
+      <option value="-1" selected>Choose favorite club</option>
+      <option value="">Liverpool</option>
+      <option value="">Barcelona</option>
+    </select>
+    </div>
+
+  <div class="input-container">
+      <i class="fa fa-user icon"></i>
+    <select name="socialnetwork" id="ddlsn" class="input-field"> 
+      <optgroup label="Online">
+      <option value="1">Social Network</option>
+      <option value="2">Search Engine</option>
+      </optgroup>
+      <optgroup label="Offline">
+      <option value="3">Postcard</option>
+      <option value="4">A person</option>
+      </optgroup>
+    </select>
+    </div>
+
+
+        <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input type="text" name="username"  id="txtuname" size="30" placeholder="Enter username" pattern="[a-zA-Z]{4}" required class="input-field">
+    </div>
+
+    <div class="input-container">
+      <i class="fa fa-user icon"></i>
+      <input type="password" name="pass" id="txtpass" size="30" required class="input-field" placeholder="Enter password...">
+    </div>
+
+    <div class="input-container"> 
+      <input type="submit" name="submit" id="btncontact" value="Contact US" class="btns">
+    </div>
+
+        <div class="input-container"> 
+      <input type="submit" name="submit" id="btncontact" value="Save draft" formnovalidate class="btns">
+    </div>
+
+    <div class="input-container"> 
+      <input type="reset" name="reset" id="btnreset" value="Clear Form" class="btns">
+    </div>
+
+        <!-- <div class="input-container"> 
+      <input type="image" name="submit" id="btncontact" src="../images/submit.jpg">
+    </div> -->
+
+    <!-- <div class="input-container"> 
+      <button type="button">
+          <img src="../images/voting.jpg">
+          Click here to vote!
+      </button>
+    </div> -->
+
+    <div class="input-container">
+      <details>
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus deleniti ex necessitatibus nemo at quod aperiam quis dolores rem, atque quam minus ipsam in, aspernatur officiis ea doloremque esse explicabo.
+        <summary>
+           <input type="checkbox">I acknowledge having the disclaimer..
+        </summary>
+      </details>
+    </div>
+
+  </div>
+</form>
+
+</main>
+  <!-- // end of Main -->
+
+
+  <!-- // start of Footer -->
+<footer id="contact">
+    <div class="content-wrap">
+        <h2>Let's Keep in Touch!</h2>
+        <p><i class="far fa-thumbs-up fa-5x" style="color:lightblue;"></i></p>
+        <!-- Social media links. -->
+        <a href="mailto:xyz@gmail.com">email@example.com</a>
+        <a href="https://donaldjtrump.com">donaldjtrump.com</a>
+        <a href="https://twitter.com/realdonaldtrump"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/donald-trump-jr-4454b862">LinkedIn</a>
+        <a href="http://www.facebook.com/DonaldTrump/">Facebook</a>
+        <p>&copy; 2025 | by <span class="special">D.Trump</span></p>
+      <p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>  
+      </div>
+</footer>
+  <!-- // end of Footer -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="../js/menu.js"></script>
+</body>
+</html>
